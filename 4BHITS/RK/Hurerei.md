@@ -1,0 +1,5 @@
+---
+tags: RK
+---
+Die Geschichte aus dem Matthäusevangelium ist heutzutage noch relevant, da sie viel über die Nächstenliebe aussagt.
+Den schwächeren Individuen einer Gesellschaft sollten geholfen werden, statt den Abstand zwischen arm und reich zu vergrößern. Nackte sollten gekleidet werden, Hungrige zu essen gegeben werden. Obdachlose, Kranke und auch Gefangene gehören immer noch zu unserer Gesellschaft und sollten nicht einfach ignoriert werden. Denn auch sie haben ein Recht aufs Leben und sollten die Möglichkeit bekommen ihr Potenzial auszuschöpfen. Jesus stellt sich in der Geschichte selber, als der Hungrige, der Durstige, der Nackte, der Kranke und als der Gefangene dar, erscheint dann aber vor den Völkern wieder als "König" und gewährt denen, die ihm geholfen haben, ein Weg in sein Reich. Jesus sieht die Hilfe, die die Gerechten den Armen geleistet haben, auch als das was sie ihm geleistet haben.

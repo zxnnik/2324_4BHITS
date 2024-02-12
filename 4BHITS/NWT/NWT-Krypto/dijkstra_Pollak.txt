@@ -1,0 +1,89 @@
+//{ Driver Code Starts
+import java.util.*;
+import java.io.*;
+import java.lang.*;
+
+class DriverClass
+{
+    public static void main(String args[]) throws IOException {
+
+        BufferedReader read =
+            new BufferedReader(new InputStreamReader(System.in));
+        int t = Integer.parseInt(read.readLine());
+        while (t-- > 0) {
+            String str[] = read.readLine().trim().split(" ");
+            int V = Integer.parseInt(str[0]);
+            int E = Integer.parseInt(str[1]);
+    
+            ArrayList<ArrayList<ArrayList<Integer>>> adj = new ArrayList<ArrayList<ArrayList<Integer>>>();
+            for(int i=0;i<V;i++)
+            {
+                adj.add(new ArrayList<ArrayList<Integer>>());
+            }
+            
+            int i=0;
+            while (i++<E) {
+                String S[] = read.readLine().trim().split(" ");
+                int u = Integer.parseInt(S[0]);
+                int v = Integer.parseInt(S[1]);
+                int w = Integer.parseInt(S[2]);
+                ArrayList<Integer> t1 = new ArrayList<Integer>();
+                ArrayList<Integer> t2 = new ArrayList<Integer>();
+                t1.add(v);
+                t1.add(w);
+                t2.add(u);
+                t2.add(w);
+                adj.get(u).add(t1);
+                adj.get(v).add(t2);
+            }
+            
+            int S = Integer.parseInt(read.readLine());
+            
+            Solution ob = new Solution();
+            
+            int[] ptr = ob.dijkstra(V, adj, S);
+            
+            for(i=0; i<V; i++)
+                System.out.print(ptr[i] + " ");
+            System.out.println();
+        }
+    }
+}
+// } Driver Code Ends
+
+ class verWiWei {
+        int index;
+        int weight;
+
+        verWiWei(int index, int weight) {
+            this.index = index;
+            this.weight = weight;
+        }
+    }
+
+    class Solution {
+        // V = Anzahl an Knoten, adj = Nachbarn, S = Startknoten
+        static int[] dijkstra(int V, ArrayList<ArrayList<ArrayList<Integer>>> adj, int S) {
+            int[] dist = new int[V];
+            for (int i = 0; i < V; i++) { // Alle Distanzen von S weg auf undendlich setzen
+                dist[i] = 0xffff;
+            }
+            dist[S] = 0; // Distanz von S zu S = 0
+            PriorityQueue<verWiWei> queue = new PriorityQueue<>((a, b) -> a.weight - b.weight); // a, b sind beide verWiWei-Objekte,
+            queue.add(new verWiWei(S, 0));
+            while (!queue.isEmpty()) {
+                verWiWei v = queue.poll(); // poll() ruft ab und entfernt das erste Element einer PriorityQueue
+                int in = v.index;
+                ArrayList<ArrayList<Integer>> list = adj.get(in); // holt index vom Nachbar
+                for (int i = 0; i < list.size(); i++) {
+                    if (dist[list.get(i).get(0)] > dist[in] + list.get(i).get(1)) {
+                        dist[list.get(i).get(0)] = dist[in] + list.get(i).get(1);
+                        queue.add(new verWiWei(list.get(i).get(0), dist[list.get(i).get(0)])); // Knoten wird mit aktualisieter distance zurückgeaddet
+                    }
+                }
+            }
+
+            return dist;
+        }
+    }
+
