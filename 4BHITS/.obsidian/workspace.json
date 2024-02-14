@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NWT/UDP.md",
+                "file": "MEDT/Unterlagen.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NWT/UDP.md",
+                "file": "MEDT/Unterlagen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NWT/UDP.md",
+                "file": "MEDT/Unterlagen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NWT/UDP.md"
+                "file": "MEDT/Unterlagen.md"
               }
             }
           },
@@ -176,20 +176,29 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d9a0ece51310c1e7",
+  "active": "47ab80f8d01d00b6",
   "lastOpenFiles": [
+    "WIR/Grundbegriffe der Buchhaltung.md",
+    "MEDT/Unterlagen.md",
+    "MEDT/Unterlagen/09-Adobe Xd.pdf",
+    "MEDT/Unterlagen/02-Lehrinhalte.pdf",
+    "MEDT/Unterlagen/01-Beurteilungskriterien.pdf",
+    "MEDT/Unterlagen",
+    "MEDT/New folder",
+    "MEDT/09-Adobe Xd.pdf",
+    "MEDT/02-Lehrinhalte.pdf",
+    "MEDT/01-Beurteilungskriterien.pdf",
+    "MEDT/xd-material-design-light-and-dark-themes/[Light Theme] XD-Material-Design 200717.xd",
+    "MEDT/xd-material-design-light-and-dark-themes/__MACOSX",
+    "ZZZ Attachments/Pasted image 20240214102423.png",
+    "WIR/0 WIR Overview.md",
+    "INSY/Docker Aufgaben.md",
+    "ZZZ Attachments/Pasted image 20240213125108.png",
+    "ZZZ Attachments/Pasted image 20240213124953.png",
     "INSY/Docker.md",
+    "D/0 D Overview.md",
+    "D/Textinterpretation.md",
     "NWT/UDP.md",
-    "ITP/GEI/ITP4-GEI4B-2324/app/src/main/res/raw/goofy.mp3",
-    "ITP/GEI/ITP4-GEI4B-2324/app/src/main/res/raw/goofymp3",
-    "ITP/GEI/ITP4-GEI4B-2324/app/src/main/res/raw/goofy",
-    "ITP/GEI/ITP4-GEI4B-2324/Goofy Ahh ringtone (sound effect).mp3",
-    "ITP/GEI/ITP4-GEI4B-2324/goofy.mp3",
-    "ITP/GEI/ITP4-GEI4B-2324/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/dirty-output-classes.tab_i",
-    "ITP/GEI/ITP4-GEI4B-2324/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/dirty-output-classes.tab_i.len",
-    "ITP/GEI/ITP4-GEI4B-2324/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/dirty-output-classes.tab",
-    "ITP/GEI/ITP4-GEI4B-2324/build/kotlin/sessions/kotlin-compiler-17585424327864175235.salive",
-    "ITP/GEI/ITP4-GEI4B-2324/app/build/snapshot/kotlin/compileDebugKotlin/0.zip",
     "ZZZ Attachments/Pasted image 20240211141332.png",
     "ZZZ Attachments/Pasted image 20240211141313.png",
     "ZZZ Attachments/Pasted image 20240211141234.png",
@@ -214,16 +223,7 @@
     "SEW/Personenverwaltung/Gr8-Personenverwaltung-Kaminski-Pollak/PersonenverwaltungReact/personenverwaltung/node_modules/events/Readme.md",
     "SEW/Personenverwaltung/Gr8-Personenverwaltung-Kaminski-Pollak/PersonenverwaltungReact/personenverwaltung/node_modules/events/History.md",
     "SEW/Personenverwaltung/Gr8-Personenverwaltung-Kaminski-Pollak/PersonenverwaltungReact/personenverwaltung/node_modules/css-loader/README.md",
-    "SEW/Personenverwaltung/Gr8-Personenverwaltung-Kaminski-Pollak/PersonenverwaltungReact/personenverwaltung/node_modules/source-map-loader/README.md",
-    "SEW/Personenverwaltung/Gr8-Personenverwaltung-Kaminski-Pollak/PersonenverwaltungReact/personenverwaltung/node_modules/@babel/compat-data/README.md",
-    "SEW/Personenverwaltung/Gr8-Personenverwaltung-Kaminski-Pollak/PersonenverwaltungReact/personenverwaltung/node_modules/@aashutoshrathi/word-wrap/README.md",
-    "SEW/Personenverwaltung/Gr8-Personenverwaltung-Kaminski-Pollak/PersonenverwaltungReact/personenverwaltung/node_modules/@babel/code-frame/README.md",
-    "SEW/Personenverwaltung/Gr8-Personenverwaltung-Kaminski-Pollak/PersonenverwaltungReact/personenverwaltung/node_modules/@babel/plugin-proposal-optional-chaining/README.md",
-    "SEW/Personenverwaltung/Gr8-Personenverwaltung-Kaminski-Pollak/PersonenverwaltungReact/personenverwaltung/node_modules/static-eval/node_modules/type-check/README.md",
     "SEW/Personenverwaltung/Gr8-Personenverwaltung-Kaminski-Pollak/PersonenverwaltungReact/personenverwaltung/node_modules/psl/browserstack-logo.svg",
-    "SEW/Personenverwaltung/Gr8-Personenverwaltung-Kaminski-Pollak/PersonenverwaltungReact/personenverwaltung/node_modules/renderkid/docs/images/usage.png",
-    "SEW/Personenverwaltung/Gr8-Personenverwaltung-Kaminski-Pollak/PersonenverwaltungReact/personenverwaltung/node_modules/renderkid/docs/images/display.png",
-    "SEW/Personenverwaltung/Gr8-Personenverwaltung-Kaminski-Pollak/PersonenverwaltungReact/personenverwaltung/node_modules/renderkid/docs/images/bullets-1.png",
     "Untitled.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas"
